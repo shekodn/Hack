@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">mesero</string>
+
+    <string name="title_section1">Perfil</string>
+    <string name="title_section2">Pedidos</string>
+    <string name="title_section3"> Historial </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
