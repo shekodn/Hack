@@ -11,9 +11,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
 
 import com.parse.Parse;
 
@@ -21,19 +18,20 @@ import com.parse.Parse;
 public class MainActivity extends ActionBarActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
+    /**
+     * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
+     */
     private NavigationDrawerFragment mNavigationDrawerFragment;
 
-
+    /**
+     * Used to store the last screen title. For use in {@link #restoreActionBar()}.
+     */
     private CharSequence mTitle;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_main);
-
-
+        setContentView(R.layout.activity_main);
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);

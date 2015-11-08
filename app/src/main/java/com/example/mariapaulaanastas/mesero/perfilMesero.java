@@ -14,7 +14,7 @@ public class perfilMesero extends Fragment{
     View rootview;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-    // Comment
+
         rootview = inflater.inflate(R.layout.perfil_mesero_layout,container,false);
 
         return rootview;
