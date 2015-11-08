@@ -42,10 +42,6 @@ public class MainActivity extends ActionBarActivity
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
 
-        // Enable Local Datastore.
-        Parse.enableLocalDatastore(this);
-
-        Parse.initialize(this, "H5nqxUHyp6A2nvR6O5wHPGSa0vW6nabXucX5Nf0E", "uGfYMntmiDA0mzoAaQQPLkAAXVxHscpoVWu1sUh2");
     }
 
     @Override
